@@ -1,0 +1,9 @@
+{
+  "name": "pk-awesome-agent-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local skill rating and gap analysis tooling for PK Awesome Agent Skills",
+  "bin": {
+    "pk-awesome-review": "bin/pk-awesome-review.js"
+  }
+}

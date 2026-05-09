@@ -22,6 +22,12 @@ Execution:
 .\pk-awesome-review.cmd -AsJson
 ```
 
+Or via npm CLI:
+
+```powershell
+npm exec -- pk-awesome-review -AsJson
+```
+
 Useful args:
 
 - `-TopN` adjust how many top entries to keep per type.

@@ -73,6 +73,19 @@ Windows-friendly:
 .\pk-awesome-review.cmd -AsJson
 ```
 
+Portable package entrypoint:
+
+```powershell
+npm install
+npm exec -- pk-awesome-review -AsJson
+```
+
+or from repo root using npm script style:
+
+```powershell
+npm exec -- pk-awesome-review -GapBottomPercent 10 -TopN 20 -AsJson
+```
+
 The default output is a single machine-readable contract:
 `local-skill-review-session.json` with:
 

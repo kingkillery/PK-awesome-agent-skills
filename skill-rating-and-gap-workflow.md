@@ -35,6 +35,9 @@ pwsh .\scripts\Run-PKAwesomeLocalSkillReview.ps1 -AsJson -TopN 20 -GapBottomPerc
 ```powershell
 .\pk-awesome-review.cmd -AsJson -TopN 20 -GapBottomPercent 10
 ```
+```powershell
+npm exec -- pk-awesome-review -AsJson -TopN 20 -GapBottomPercent 10
+```
 
 This is the neutral scoring entrypoint for local agent workflows:
 
