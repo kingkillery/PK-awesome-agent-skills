@@ -17,8 +17,50 @@ if (-not $skills) {
 function Get-CategoryDisplay {
   param([string]$Category)
   if ([string]::IsNullOrWhiteSpace($Category)) { return "uncategorized" }
-  $parts = $Category -split "/"
+  $norm = $Category -replace "[\\\/]", "/"
+  $parts = $norm -split "/"
   return ($parts | Select-Object -Last 1)
+}
+
+function Get-CategoryType {
+  param([string]$Category)
+  if ([string]::IsNullOrWhiteSpace($Category)) { return "Tooling & Environment" }
+
+  $token = Get-CategoryDisplay $Category
+  $token = $token.ToLowerInvariant()
+
+  if ($token -match "ix-|agent|subagent|parallel|multi|dispatch|pk-|llm-as-verifier|agent-self-improvement|agentmail|droid|puzldai|ralph") {
+    return "Agentic Systems"
+  }
+  if ($token -match "albatross|sunpower|interconnection|ix|salesforce|puzl|field-spreadsheet|utility-skills|utility") {
+    return "Solar & Interconnection"
+  }
+  if ($token -match "research|wiki|deep|memory|evaluation|eval|worker-bench|analysis|intel|investig|project-prioritization|context-fundamentals|context-optimization|context-degradation|investor|strategic") {
+    return "Research & Intelligence"
+  }
+  if ($token -match "doc|knowledge|write|guide|plan|context|help|knowledge-base|sop|skill-creator|requesting-code-review|executing-plans") {
+    return "Documentation & Knowledge"
+  }
+  if ($token -match "github|github-|release|deploy|workflow|pull|branch|git|commit|create-pr|code-review|review|ci|pr|dogfood|using-git-worktrees|repo-root|workflow-automation") {
+    return "DevOps & Delivery"
+  }
+  if ($token -match "frontend|backend|api|design|pattern|architecture|software|engineering|map-codebase|coding|coding-standards|program|codebase|codebase|setup|plan|tdd-workflow|backend-patterns|frontend-patterns|api-design") {
+    return "Engineering & Architecture"
+  }
+  if ($token -match "test|testing|e2e|qa|quality|bug|security|systematic-debugging|verification") {
+    return "Testing & Quality"
+  }
+  if ($token -match "mcp|slack|obsidian|api|integration|integrations|hugging|remote|webhook|plugin|connector|tool|fabrik|fabric|worktree") {
+    return "Integrations & APIs"
+  }
+  if ($token -match "remotion|podcast|visual|media|canvas|design|theme|slide|gif|art|music|web-artifacts|llm-wiki-organizer") {
+    return "Creative & Media"
+  }
+  if ($token -match "setup|tool|utility|environment|remote|apple|android|mac|terminal|automation|scrcpy|fabric-ssh|service|cli") {
+    return "Tooling & Environment"
+  }
+
+  return "Tooling & Environment"
 }
 
 function Get-Anchored {
@@ -32,7 +74,13 @@ function Get-Anchored {
 
 $totalSkills = $skills.Count
 $repoGroups = $skills | Group-Object repo | Sort-Object -Property @{Expression='Count';Descending=$true}, @{Expression='Name';Descending=$false}
-$categoryGroups = $skills | Group-Object category | Sort-Object -Property @{Expression='Count';Descending=$true}, @{Expression='Name';Descending=$false}
+
+$typedSkills = $skills | ForEach-Object {
+  $record = $_ | Select-Object *
+  $record | Add-Member -NotePropertyName skill_type -NotePropertyValue (Get-CategoryType $_.category) -Force
+  $record
+}
+$categoryGroups = $typedSkills | Group-Object skill_type | Sort-Object -Property @{Expression='Count';Descending=$true}, @{Expression='Name';Descending=$false}
 
 $repoCount = $repoGroups.Count
 $generated = (Get-Date).ToString("o")
@@ -53,6 +101,7 @@ $null = $sb.AppendLine("")
 $null = $sb.AppendLine("## At a Glance")
 $null = $sb.AppendLine("")
 $null = $sb.AppendLine("- Source index: $source")
+$null = $sb.AppendLine("- Source path: $sourceHint")
 $null = $sb.AppendLine("- Generated: $generated")
 $null = $sb.AppendLine("- Total repositories: $repoCount")
 $null = $sb.AppendLine("- Total skills: $totalSkills")
@@ -77,7 +126,7 @@ $null = $sb.AppendLine("## Category Index")
 $null = $sb.AppendLine("")
 
 foreach ($cat in $categoryGroups) {
-  $name = Get-CategoryDisplay $cat.Name
+  $name = $cat.Name
   $anchor = Get-Anchored $name
   $null = $sb.AppendLine("- [$name](#$anchor) - $($cat.Count) skills")
 }
@@ -94,7 +143,7 @@ $null = $sb.AppendLine("")
 $null = $sb.AppendLine("## Skills by Category")
 $null = $sb.AppendLine("")
 foreach ($cat in $categoryGroups) {
-  $name = Get-CategoryDisplay $cat.Name
+  $name = $cat.Name
   $anchor = Get-Anchored $name
   $null = $sb.AppendLine("### $name")
   $null = $sb.AppendLine("<a id=`"$anchor`"></a>")
@@ -110,9 +159,7 @@ $null = $sb.AppendLine("## Skills by Repository")
 $null = $sb.AppendLine("")
 foreach ($repo in $repoGroups) {
   $url = ($skills | Where-Object repo -eq $repo.Name | Select-Object -First 1).repo_url
-  $anchor = Get-Anchored $repo.Name
   $null = $sb.AppendLine("### $($repo.Name)")
-  $null = $sb.AppendLine("<a id=`"$anchor`"></a>")
   $null = $sb.AppendLine("[Repository home]($url)")
   $items = $repo.Group | Sort-Object path
   foreach ($item in $items) {
