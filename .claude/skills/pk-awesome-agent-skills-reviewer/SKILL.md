@@ -19,7 +19,7 @@ agent's own judgment.
 Execution:
 
 ```powershell
-pwsh .\scripts\Run-PKAwesomeLocalSkillReview.ps1 -AsJson
+.\pk-awesome-review.cmd -AsJson
 ```
 
 Useful args:

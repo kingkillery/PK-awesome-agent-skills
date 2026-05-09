@@ -61,6 +61,18 @@ For any CLI coding agent (Codex, Claude, or any runner), use:
 pwsh .\scripts\Run-PKAwesomeLocalSkillReview.ps1 -AsJson
 ```
 
+Stable CLI entrypoint:
+
+```powershell
+pwsh .\pk-awesome-review.ps1 -AsJson
+```
+
+Windows-friendly:
+
+```powershell
+.\pk-awesome-review.cmd -AsJson
+```
+
 The default output is a single machine-readable contract:
 `local-skill-review-session.json` with:
 
