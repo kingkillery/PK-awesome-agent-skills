@@ -24,6 +24,21 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - scripts/Update-PKAwesomeAgentSkills.ps1: refresh JSON snapshots
 - scripts/Generate-PKAwesomeReadme.ps1: regenerate this file
 
+## Neutral Review Command (Stable CLI)
+
+Use this repo's local scoring/review entrypoint from any agent or terminal:
+
+```powershell
+npm install
+npm exec -- pk-awesome-review -AsJson
+```
+
+Windows direct shortcut:
+
+```powershell
+.\pk-awesome-review.cmd -AsJson
+```
+
 ## Quick Search Strategy
 
 1. Start in the category index when your ask is capability-based.

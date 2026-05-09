@@ -37,6 +37,12 @@ jobs:
           .\scripts\Grade-PKAwesomeSkills.ps1
           .\scripts\Run-PKAwesomeLocalSkillReview.ps1 -SkipRegrade
 
+      - name: Smoke test reviewer CLI
+        shell: pwsh
+        run: |
+          npm install
+          npm exec -- pk-awesome-review -AsJson -TopN 1 -GapBottomPercent 10 -SkipRegrade
+
       - name: Upload score artifacts
         uses: actions/upload-artifact@v4
         with:
