@@ -37,6 +37,10 @@ foreach ($repo in $source) {
 
   foreach ($pathValue in $skillPaths) {
     $fullPath = $pathValue -replace "^/",""
+    if ($fullPath -notmatch '(^|[\\/])(skills|pk-skills1)([\\/]).+([\\/])[^/\\\\]+\.md$') {
+      continue
+    }
+
     $category = [System.IO.Path]::GetDirectoryName($fullPath).Replace("\\", "/")
     $skillName = [System.IO.Path]::GetFileName($fullPath)
     $link = "$rawUrl/blob/main/$fullPath"
@@ -62,4 +66,3 @@ Write-Host "Wrote:"
 Write-Host " - $catalogPath"
 Write-Host " - $flatPath"
 Write-Host "Tip: rebuild README.md with .\scripts\Generate-PKAwesomeReadme.ps1"
-

@@ -530,14 +530,6 @@
     {
         "repo":  "kingkillery/Agent-Skills-for-Context-Engineering",
         "repo_url":  "https://github.com/kingkillery/Agent-Skills-for-Context-Engineering",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/Agent-Skills-for-Context-Engineering",
-        "repo_url":  "https://github.com/kingkillery/Agent-Skills-for-Context-Engineering",
         "category":  "skills\\context-compression",
         "path":  "skills/context-compression/SKILL.md",
         "link":  "https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md",
@@ -7680,22 +7672,6 @@
         "name":  "SKILL.md"
     },
     {
-        "repo":  "kingkillery/browser-harness",
-        "repo_url":  "https://github.com/kingkillery/browser-harness",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/browser-harness/blob/main/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/browser-harness-js",
-        "repo_url":  "https://github.com/kingkillery/browser-harness-js",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/browser-harness-js/blob/main/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
         "repo":  "kingkillery/campaign-agents",
         "repo_url":  "https://github.com/kingkillery/campaign-agents",
         "category":  "skills\\conflict-resolution",
@@ -7758,22 +7734,6 @@
         "path":  "skills/task-breakdown/SKILL.md",
         "link":  "https://github.com/kingkillery/campaign-agents-long/blob/main/skills/task-breakdown/SKILL.md",
         "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/claude-code-skills",
-        "repo_url":  "https://github.com/kingkillery/claude-code-skills",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/claude-code-skills/blob/main/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/claude-code-source-code-full",
-        "repo_url":  "https://github.com/kingkillery/claude-code-source-code-full",
-        "category":  "",
-        "path":  "Skill.md",
-        "link":  "https://github.com/kingkillery/claude-code-source-code-full/blob/main/Skill.md",
-        "name":  "Skill.md"
     },
     {
         "repo":  "kingkillery/ClawRouter",
@@ -8117,14 +8077,6 @@
         "category":  "skills\\demo-followup",
         "path":  "skills/demo-followup/SKILL.md",
         "link":  "https://github.com/kingkillery/Custom-Skills-Server/blob/main/skills/demo-followup/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/DeepTutor",
-        "repo_url":  "https://github.com/kingkillery/DeepTutor",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/DeepTutor/blob/main/SKILL.md",
         "name":  "SKILL.md"
     },
     {
@@ -9336,14 +9288,6 @@
         "name":  "SKILL.md"
     },
     {
-        "repo":  "kingkillery/gstack",
-        "repo_url":  "https://github.com/kingkillery/gstack",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/gstack/blob/main/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
         "repo":  "kingkillery/helmor",
         "repo_url":  "https://github.com/kingkillery/helmor",
         "category":  ".codex\\skills\\helmor-cli",
@@ -10437,30 +10381,6 @@
         "category":  ".agents\\skills\\sop-creation",
         "path":  ".agents/skills/sop-creation/SKILL.md",
         "link":  "https://github.com/kingkillery/IX-Agentv6/blob/main/.agents/skills/sop-creation/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/kade-headquarters",
-        "repo_url":  "https://github.com/kingkillery/kade-headquarters",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/kade-headquarters/blob/main/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/kalshi-maker",
-        "repo_url":  "https://github.com/kingkillery/kalshi-maker",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/kalshi-maker/blob/main/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/last30days-skill",
-        "repo_url":  "https://github.com/kingkillery/last30days-skill",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/last30days-skill/blob/main/SKILL.md",
         "name":  "SKILL.md"
     },
     {
@@ -11589,14 +11509,6 @@
         "category":  ".codex\\skills\\pokemon-benchmark",
         "path":  ".codex/skills/pokemon-benchmark/SKILL.md",
         "link":  "https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/pokemon-benchmark/SKILL.md",
-        "name":  "SKILL.md"
-    },
-    {
-        "repo":  "kingkillery/pi-speak-extension",
-        "repo_url":  "https://github.com/kingkillery/pi-speak-extension",
-        "category":  "",
-        "path":  "SKILL.md",
-        "link":  "https://github.com/kingkillery/pi-speak-extension/blob/main/SKILL.md",
         "name":  "SKILL.md"
     },
     {

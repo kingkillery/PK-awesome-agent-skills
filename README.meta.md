@@ -53,4 +53,20 @@ Read the score artifacts to:
 - fix naming/actionability issues in weak areas
 - add evidence/references for low-signal skills
 
+### Local neutral reviewer
+
+For any CLI coding agent (Codex, Claude, or any runner), use:
+
+```powershell
+pwsh .\scripts\Run-PKAwesomeLocalSkillReview.ps1 -AsJson
+```
+
+The default output is a single machine-readable contract:
+`local-skill-review-session.json` with:
+
+- overall score distribution
+- top skills per type
+- gap candidates per type
+- recommended next moves
+
 See [Skill rating and gap workflow](skill-rating-and-gap-workflow.md) for the full review model and an iterative improvement loop.

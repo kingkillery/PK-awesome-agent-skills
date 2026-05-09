@@ -280,41 +280,41 @@ Total: 79 | Avg score: 68.2
 | 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/burp-suite-testing/SKILL.md) | skills/burp-suite-testing/SKILL.md | Folder contains capability/action-oriented keyword |
 
 ## Tooling & Environment
-Total: 912 | Avg score: 60.4
+Total: 901 | Avg score: 60.6
 
 | Score | Repo | Skill | Path | Why it ranks well |
 | ---: | --- | --- | --- | --- |
-| 81 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/browser-extension-builder/SKILL.md) | skills/browser-extension-builder/SKILL.md | Folder contains capability/action-oriented keyword |
-| 81 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/python-performance-optimization/SKILL.md) | skills/python-performance-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
-| 81 | kingkillery/pk-ruflo | [SKILL.md](https://github.com/kingkillery/pk-ruflo/blob/main/.agents/skills/v3-performance-optimization/SKILL.md) | .agents/skills/v3-performance-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
 | 81 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/web-performance-optimization/SKILL.md) | skills/web-performance-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
 | 81 | kingkillery/hermes-agent | [SKILL.md](https://github.com/kingkillery/hermes-agent/blob/main/skills/github/codebase-inspection/SKILL.md) | skills/github/codebase-inspection/SKILL.md | Folder contains capability/action-oriented keyword |
 | 81 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/hybrid-search-implementation/SKILL.md) | skills/hybrid-search-implementation/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/viral-generator-builder/SKILL.md) | skills/viral-generator-builder/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/pk-ruflo | [SKILL.md](https://github.com/kingkillery/pk-ruflo/blob/main/.agents/skills/skill-builder/SKILL.md) | .agents/skills/skill-builder/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/seo-meta-optimizer/SKILL.md) | skills/seo-meta-optimizer/SKILL.md | Folder contains capability/action-oriented keyword |
+| 81 | kingkillery/pk-ruflo | [SKILL.md](https://github.com/kingkillery/pk-ruflo/blob/main/.agents/skills/v3-performance-optimization/SKILL.md) | .agents/skills/v3-performance-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
+| 81 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/browser-extension-builder/SKILL.md) | skills/browser-extension-builder/SKILL.md | Folder contains capability/action-oriented keyword |
+| 81 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/python-performance-optimization/SKILL.md) | skills/python-performance-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
 | 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/spark-optimization/SKILL.md) | skills/spark-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/telegram-bot-builder/SKILL.md) | skills/telegram-bot-builder/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/youtube-summarizer/SKILL.md) | skills/youtube-summarizer/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/algolia-search/SKILL.md) | skills/algolia-search/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/Interconnection-Dash-2026 | [SKILL.md](https://github.com/kingkillery/Interconnection-Dash-2026/blob/main/.codex/skills/managed-skill-sync/SKILL.md) | .codex/skills/managed-skill-sync/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/pk-warp | [SKILL.md](https://github.com/kingkillery/pk-warp/blob/main/.agents/skills/resolve-merge-conflicts/SKILL.md) | .agents/skills/resolve-merge-conflicts/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/lint-and-validate/SKILL.md) | skills/lint-and-validate/SKILL.md | Folder contains capability/action-oriented keyword |
 | 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/app-store-optimization/SKILL.md) | skills/app-store-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
 | 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/app-builder/SKILL.md) | skills/app-builder/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/algolia-search/SKILL.md) | skills/algolia-search/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/lint-and-validate/SKILL.md) | skills/lint-and-validate/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/youtube-summarizer/SKILL.md) | skills/youtube-summarizer/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/Interconnection-Dash-2026 | [SKILL.md](https://github.com/kingkillery/Interconnection-Dash-2026/blob/main/.codex/skills/managed-skill-sync/SKILL.md) | .codex/skills/managed-skill-sync/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/seo-content-auditor/SKILL.md) | skills/seo-content-auditor/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/database-optimizer/SKILL.md) | skills/database-optimizer/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/personal-tool-builder/SKILL.md) | skills/personal-tool-builder/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/cost-optimization/SKILL.md) | skills/cost-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/fal-generate/SKILL.md) | skills/fal-generate/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/exa-search/SKILL.md) | skills/exa-search/SKILL.md | Folder contains capability/action-oriented keyword |
-| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/dx-optimizer/SKILL.md) | skills/dx-optimizer/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/conductor-setup/SKILL.md) | skills/conductor-setup/SKILL.md | Folder contains capability/action-oriented keyword |
 | 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/gcp-cloud-run/SKILL.md) | skills/gcp-cloud-run/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/exa-search/SKILL.md) | skills/exa-search/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/fal-generate/SKILL.md) | skills/fal-generate/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/cost-optimization/SKILL.md) | skills/cost-optimization/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/personal-tool-builder/SKILL.md) | skills/personal-tool-builder/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/database-optimizer/SKILL.md) | skills/database-optimizer/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/telegram-bot-builder/SKILL.md) | skills/telegram-bot-builder/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/dx-optimizer/SKILL.md) | skills/dx-optimizer/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/pk-ruflo | [SKILL.md](https://github.com/kingkillery/pk-ruflo/blob/main/.agents/skills/skill-builder/SKILL.md) | .agents/skills/skill-builder/SKILL.md | Folder contains capability/action-oriented keyword |
+| 77 | kingkillery/antigravity-awesome-skills | [SKILL.md](https://github.com/kingkillery/antigravity-awesome-skills/blob/main/skills/seo-audit/SKILL.md) | skills/seo-audit/SKILL.md | Folder contains capability/action-oriented keyword |
 
 ## Category Gap Priorities
 
 | Type | Count | Avg Score | Action |
 | --- | ---: | ---: | --- |
-| Tooling & Environment | 912 | 60.4 | Add one high-signal example in bottom 10% of this type |
+| Tooling & Environment | 901 | 60.6 | Add one high-signal example in bottom 10% of this type |
 | Documentation & Knowledge | 85 | 61.2 | Add one high-signal example in bottom 10% of this type |
 | Creative & Media | 36 | 61.8 | Add one high-signal example in bottom 10% of this type |
 | Integrations & APIs | 40 | 61.9 | Add one high-signal example in bottom 10% of this type |

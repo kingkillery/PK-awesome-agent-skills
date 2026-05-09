@@ -25,17 +25,40 @@ Run:
 - `skill-rankings-by-category.md`: top skills + scoring rationale per category
 - `skill-gap-analysis.md`: weakest skills per category, ready for improvements
 
-## 3) CI/CD scoring loop
+## 3) Neutral local reviewer for agents
+
+CLI agents should call:
+
+```powershell
+pwsh .\scripts\Run-PKAwesomeLocalSkillReview.ps1 -AsJson -TopN 20 -GapBottomPercent 10
+```
+
+This is the neutral scoring entrypoint for local agent workflows:
+
+- Deterministic: same inputs produce same ranking
+- Parseable: emit JSON session payload for automation
+- Fast: optional `-SkipRegrade` for already refreshed artifacts
+
+Output:
+
+- `local-skill-review-session.json` includes:
+  - `type_summaries`
+  - `top_by_type`
+  - `gap_by_type`
+  - `recommended_next_moves`
+
+## 4) CI/CD scoring loop
 
 GitHub Actions workflow `.github/workflows/skill-rating-pipeline.yml` runs:
 
 - refresh catalog (`Update-PKAwesomeAgentSkills.ps1`)
 - rebuild README (`Generate-PKAwesomeReadme.ps1`)
 - re-grade (`Grade-PKAwesomeSkills.ps1`)
+- local agent review packaging (`Run-PKAwesomeLocalSkillReview.ps1`)
 
 It uploads report artifacts and commits them on `master` when they change.
 
-## 4) Use as ranking signal
+## 5) Use as ranking signal
 
 Use this as the improvement order:
 
@@ -48,7 +71,7 @@ Use this as the improvement order:
    - score delta per skill
    - category average shifts in `skill-rating-summary.json`
 
-## 5) PR hygiene
+## 6) PR hygiene
 
 - Keep `scripts/Grade-PKAwesomeSkills.ps1` as the single source of truth for scoring.
 - If scoring semantics change, update both grading logic and docs together.

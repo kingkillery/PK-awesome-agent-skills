@@ -1,21 +1,21 @@
 [
     {
         "skill_type":  "Tooling \u0026 Environment",
-        "total_skills":  912,
-        "average_score":  60.4,
+        "total_skills":  901,
+        "average_score":  60.6,
         "top_examples":  [
-                             "kingkillery/antigravity-awesome-skills / skills/browser-extension-builder/SKILL.md (81)",
-                             "kingkillery/antigravity-awesome-skills / skills/python-performance-optimization/SKILL.md (81)",
-                             "kingkillery/pk-ruflo / .agents/skills/v3-performance-optimization/SKILL.md (81)",
                              "kingkillery/antigravity-awesome-skills / skills/web-performance-optimization/SKILL.md (81)",
-                             "kingkillery/hermes-agent / skills/github/codebase-inspection/SKILL.md (81)"
+                             "kingkillery/hermes-agent / skills/github/codebase-inspection/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/hybrid-search-implementation/SKILL.md (81)",
+                             "kingkillery/pk-ruflo / .agents/skills/v3-performance-optimization/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/browser-extension-builder/SKILL.md (81)"
                          ],
         "weakest_examples":  [
                                  "kingkillery/oh-my-claudecode / skills/cancel/SKILL.md (41)",
-                                 "kingkillery/pk-ouroboros / skills/cancel/SKILL.md (41)",
                                  "kingkillery/oh-my-codex / skills/cancel/SKILL.md (41)",
-                                 "kingkillery/gstack / SKILL.md (44)",
-                                 "kingkillery/gbrain / skills/query/SKILL.md (44)"
+                                 "kingkillery/pk-ouroboros / skills/cancel/SKILL.md (41)",
+                                 "kingkillery/gbrain / skills/query/SKILL.md (44)",
+                                 "kingkillery/My-Brain-Is-Full-Crew / skills/defrag/SKILL.md (44)"
                              ]
     },
     {

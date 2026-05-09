@@ -2,17 +2,17 @@
 
 A curated, machine-readable index of agent capabilities from Kingkillery skill repositories, with direct links to every SKILL.md.
 
-![Skills](https://img.shields.io/badge/skills-1751-blue)
-![Repos](https://img.shields.io/badge/repos-78-green)
+![Skills](https://img.shields.io/badge/skills-1740-blue)
+![Repos](https://img.shields.io/badge/repos-69-green)
 ![Format](https://img.shields.io/badge/format-Markdown%20%2B%20JSON-orange)
 
 ## At a Glance
 
 - Source index: $HOME\.codex\kingkillery-agent-skill-repos.json
 - Source path: C:\Users\prest\.codex\kingkillery-agent-skill-repos.json
-- Generated: 2026-05-09T15:53:48.9139068-06:00
-- Total repositories: 78
-- Total skills: 1751
+- Generated: 2026-05-09T15:58:01.3629162-06:00
+- Total repositories: 69
+- Total skills: 1740
 - Refresh with: .\scripts\Update-PKAwesomeAgentSkills.ps1
 - Rebuild README with: .\scripts\Generate-PKAwesomeReadme.ps1
 
@@ -32,7 +32,7 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 
 ## Category Index
 
-- [Tooling & Environment](#toolingenvironment) - 810 skills
+- [Tooling & Environment](#toolingenvironment) - 799 skills
 - [DevOps & Delivery](#devopsdelivery) - 222 skills
 - [Agentic Systems](#agenticsystems) - 210 skills
 - [Engineering & Architecture](#engineeringarchitecture) - 139 skills
@@ -64,17 +64,17 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/pk-mirofish](https://github.com/kingkillery/pk-mirofish) - 17 skills
 - [kingkillery/anthropics-skills](https://github.com/kingkillery/anthropics-skills) - 16 skills
 - [kingkillery/oz-skills](https://github.com/kingkillery/oz-skills) - 15 skills
-- [kingkillery/pi-speak-extension](https://github.com/kingkillery/pi-speak-extension) - 15 skills
 - [kingkillery/pk-qmd](https://github.com/kingkillery/pk-qmd) - 15 skills
 - [kingkillery/IX-Agentv6](https://github.com/kingkillery/IX-Agentv6) - 14 skills
+- [kingkillery/pi-speak-extension](https://github.com/kingkillery/pi-speak-extension) - 14 skills
 - [kingkillery/My-Brain-Is-Full-Crew](https://github.com/kingkillery/My-Brain-Is-Full-Crew) - 13 skills
 - [kingkillery/agent-cli-obsidian](https://github.com/kingkillery/agent-cli-obsidian) - 11 skills
 - [kingkillery/Autonomous-Business](https://github.com/kingkillery/Autonomous-Business) - 11 skills
 - [kingkillery/cursed-plugins](https://github.com/kingkillery/cursed-plugins) - 10 skills
 - [kingkillery/opc-skills](https://github.com/kingkillery/opc-skills) - 10 skills
 - [kingkillery/skills](https://github.com/kingkillery/skills) - 10 skills
-- [kingkillery/Agent-Skills-for-Context-Engineering](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering) - 9 skills
 - [kingkillery/emulate](https://github.com/kingkillery/emulate) - 9 skills
+- [kingkillery/Agent-Skills-for-Context-Engineering](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering) - 8 skills
 - [kingkillery/gbrain](https://github.com/kingkillery/gbrain) - 8 skills
 - [kingkillery/pk-paperclip](https://github.com/kingkillery/pk-paperclip) - 8 skills
 - [kingkillery/context-mode](https://github.com/kingkillery/context-mode) - 7 skills
@@ -101,19 +101,10 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/aca](https://github.com/kingkillery/aca) - 1 skills
 - [kingkillery/auto-researchtrading](https://github.com/kingkillery/auto-researchtrading) - 1 skills
 - [kingkillery/bn](https://github.com/kingkillery/bn) - 1 skills
-- [kingkillery/browser-harness](https://github.com/kingkillery/browser-harness) - 1 skills
-- [kingkillery/browser-harness-js](https://github.com/kingkillery/browser-harness-js) - 1 skills
-- [kingkillery/claude-code-skills](https://github.com/kingkillery/claude-code-skills) - 1 skills
-- [kingkillery/claude-code-source-code-full](https://github.com/kingkillery/claude-code-source-code-full) - 1 skills
 - [kingkillery/ClawRouter](https://github.com/kingkillery/ClawRouter) - 1 skills
 - [kingkillery/cocoindex](https://github.com/kingkillery/cocoindex) - 1 skills
 - [kingkillery/consurg](https://github.com/kingkillery/consurg) - 1 skills
-- [kingkillery/DeepTutor](https://github.com/kingkillery/DeepTutor) - 1 skills
 - [kingkillery/git-worktree-mcp](https://github.com/kingkillery/git-worktree-mcp) - 1 skills
-- [kingkillery/gstack](https://github.com/kingkillery/gstack) - 1 skills
-- [kingkillery/kade-headquarters](https://github.com/kingkillery/kade-headquarters) - 1 skills
-- [kingkillery/kalshi-maker](https://github.com/kingkillery/kalshi-maker) - 1 skills
-- [kingkillery/last30days-skill](https://github.com/kingkillery/last30days-skill) - 1 skills
 - [kingkillery/llm-as-a-verifier](https://github.com/kingkillery/llm-as-a-verifier) - 1 skills
 - [kingkillery/muesli](https://github.com/kingkillery/muesli) - 1 skills
 - [kingkillery/Obsidian-CLI-skill](https://github.com/kingkillery/Obsidian-CLI-skill) - 1 skills
@@ -147,7 +138,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/aca/.agents/skills/aca/SKILL.md](https://github.com/kingkillery/aca/blob/main/.agents/skills/aca/SKILL.md)
 - [kingkillery/agent-cli-obsidian/skills/defuddle/SKILL.md](https://github.com/kingkillery/agent-cli-obsidian/blob/main/skills/defuddle/SKILL.md)
 - [kingkillery/agent-cli-obsidian/skills/save/SKILL.md](https://github.com/kingkillery/agent-cli-obsidian/blob/main/skills/save/SKILL.md)
-- [kingkillery/Agent-Skills-for-Context-Engineering/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/SKILL.md)
 - [kingkillery/anthropics-skills/skills/internal-comms/SKILL.md](https://github.com/kingkillery/anthropics-skills/blob/main/skills/internal-comms/SKILL.md)
 - [kingkillery/anthropics-skills/skills/pdf/SKILL.md](https://github.com/kingkillery/anthropics-skills/blob/main/skills/pdf/SKILL.md)
 - [kingkillery/anthropics-skills/skills/pptx/SKILL.md](https://github.com/kingkillery/anthropics-skills/blob/main/skills/pptx/SKILL.md)
@@ -614,16 +604,12 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/Autonomous-Business/.codex/skills/kade-hq/SKILL.md](https://github.com/kingkillery/Autonomous-Business/blob/main/.codex/skills/kade-hq/SKILL.md)
 - [kingkillery/Autonomous-Business/.codex/skills/pokemon-benchmark/SKILL.md](https://github.com/kingkillery/Autonomous-Business/blob/main/.codex/skills/pokemon-benchmark/SKILL.md)
 - [kingkillery/bn/skills/bn/SKILL.md](https://github.com/kingkillery/bn/blob/main/skills/bn/SKILL.md)
-- [kingkillery/browser-harness/SKILL.md](https://github.com/kingkillery/browser-harness/blob/main/SKILL.md)
-- [kingkillery/browser-harness-js/SKILL.md](https://github.com/kingkillery/browser-harness-js/blob/main/SKILL.md)
 - [kingkillery/campaign-agents/skills/conflict-resolution/SKILL.md](https://github.com/kingkillery/campaign-agents/blob/main/skills/conflict-resolution/SKILL.md)
 - [kingkillery/campaign-agents/skills/session-recovery/SKILL.md](https://github.com/kingkillery/campaign-agents/blob/main/skills/session-recovery/SKILL.md)
 - [kingkillery/campaign-agents/skills/task-breakdown/SKILL.md](https://github.com/kingkillery/campaign-agents/blob/main/skills/task-breakdown/SKILL.md)
 - [kingkillery/campaign-agents-long/skills/conflict-resolution/SKILL.md](https://github.com/kingkillery/campaign-agents-long/blob/main/skills/conflict-resolution/SKILL.md)
 - [kingkillery/campaign-agents-long/skills/session-recovery/SKILL.md](https://github.com/kingkillery/campaign-agents-long/blob/main/skills/session-recovery/SKILL.md)
 - [kingkillery/campaign-agents-long/skills/task-breakdown/SKILL.md](https://github.com/kingkillery/campaign-agents-long/blob/main/skills/task-breakdown/SKILL.md)
-- [kingkillery/claude-code-skills/SKILL.md](https://github.com/kingkillery/claude-code-skills/blob/main/SKILL.md)
-- [kingkillery/claude-code-source-code-full/Skill.md](https://github.com/kingkillery/claude-code-source-code-full/blob/main/Skill.md)
 - [kingkillery/ClawRouter/skills/clawrouter/SKILL.md](https://github.com/kingkillery/ClawRouter/blob/main/skills/clawrouter/SKILL.md)
 - [kingkillery/cli/skills/lark-base/SKILL.md](https://github.com/kingkillery/cli/blob/main/skills/lark-base/SKILL.md)
 - [kingkillery/cli/skills/lark-calendar/SKILL.md](https://github.com/kingkillery/cli/blob/main/skills/lark-calendar/SKILL.md)
@@ -654,7 +640,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/Custom-Skills-Server/skills/changelog-newsletter/SKILL.md](https://github.com/kingkillery/Custom-Skills-Server/blob/main/skills/changelog-newsletter/SKILL.md)
 - [kingkillery/Custom-Skills-Server/skills/DataCleaner/SKILL.md](https://github.com/kingkillery/Custom-Skills-Server/blob/main/skills/DataCleaner/SKILL.md)
 - [kingkillery/Custom-Skills-Server/skills/demo-followup/SKILL.md](https://github.com/kingkillery/Custom-Skills-Server/blob/main/skills/demo-followup/SKILL.md)
-- [kingkillery/DeepTutor/SKILL.md](https://github.com/kingkillery/DeepTutor/blob/main/SKILL.md)
 - [kingkillery/deer-flow/skills/public/bootstrap/SKILL.md](https://github.com/kingkillery/deer-flow/blob/main/skills/public/bootstrap/SKILL.md)
 - [kingkillery/deer-flow/skills/public/claude-to-deerflow/SKILL.md](https://github.com/kingkillery/deer-flow/blob/main/skills/public/claude-to-deerflow/SKILL.md)
 - [kingkillery/deer-flow/skills/public/find-skills/SKILL.md](https://github.com/kingkillery/deer-flow/blob/main/skills/public/find-skills/SKILL.md)
@@ -706,7 +691,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/gbrain/skills/maintain/SKILL.md](https://github.com/kingkillery/gbrain/blob/main/skills/maintain/SKILL.md)
 - [kingkillery/gbrain/skills/migrate/SKILL.md](https://github.com/kingkillery/gbrain/blob/main/skills/migrate/SKILL.md)
 - [kingkillery/gbrain/skills/query/SKILL.md](https://github.com/kingkillery/gbrain/blob/main/skills/query/SKILL.md)
-- [kingkillery/gstack/SKILL.md](https://github.com/kingkillery/gstack/blob/main/SKILL.md)
 - [kingkillery/helmor/.codex/skills/helmor-cli/SKILL.md](https://github.com/kingkillery/helmor/blob/main/.codex/skills/helmor-cli/SKILL.md)
 - [kingkillery/hermes-agent/skills/apple/apple-notes/SKILL.md](https://github.com/kingkillery/hermes-agent/blob/main/skills/apple/apple-notes/SKILL.md)
 - [kingkillery/hermes-agent/skills/apple/apple-reminders/SKILL.md](https://github.com/kingkillery/hermes-agent/blob/main/skills/apple/apple-reminders/SKILL.md)
@@ -775,9 +759,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/Interconnection-Dash-2026/skills/structured-utilities/peco/SKILL.md](https://github.com/kingkillery/Interconnection-Dash-2026/blob/main/skills/structured-utilities/peco/SKILL.md)
 - [kingkillery/IX-Agentv6/.agents/skills/Ambia/SKILL.md](https://github.com/kingkillery/IX-Agentv6/blob/main/.agents/skills/Ambia/SKILL.md)
 - [kingkillery/IX-Agentv6/.agents/skills/data-understanding/SKILL.md](https://github.com/kingkillery/IX-Agentv6/blob/main/.agents/skills/data-understanding/SKILL.md)
-- [kingkillery/kade-headquarters/SKILL.md](https://github.com/kingkillery/kade-headquarters/blob/main/SKILL.md)
-- [kingkillery/kalshi-maker/SKILL.md](https://github.com/kingkillery/kalshi-maker/blob/main/SKILL.md)
-- [kingkillery/last30days-skill/SKILL.md](https://github.com/kingkillery/last30days-skill/blob/main/SKILL.md)
 - [kingkillery/llm_wiki_prompt_packet/skills/home/g-kade/SKILL.md](https://github.com/kingkillery/llm_wiki_prompt_packet/blob/main/skills/home/g-kade/SKILL.md)
 - [kingkillery/llm_wiki_prompt_packet/skills/home/gstack/SKILL.md](https://github.com/kingkillery/llm_wiki_prompt_packet/blob/main/skills/home/gstack/SKILL.md)
 - [kingkillery/llm_wiki_prompt_packet/skills/home/kade-hq/SKILL.md](https://github.com/kingkillery/llm_wiki_prompt_packet/blob/main/skills/home/kade-hq/SKILL.md)
@@ -853,7 +834,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [kingkillery/pi-speak-extension/.codex/skills/gstack/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/gstack/SKILL.md)
 - [kingkillery/pi-speak-extension/.codex/skills/kade-hq/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/kade-hq/SKILL.md)
 - [kingkillery/pi-speak-extension/.codex/skills/pokemon-benchmark/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/pokemon-benchmark/SKILL.md)
-- [kingkillery/pi-speak-extension/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/SKILL.md)
 - [kingkillery/pk-ghost-ai/.agents/skills/clerk/SKILL.md](https://github.com/kingkillery/pk-ghost-ai/blob/main/.agents/skills/clerk/SKILL.md)
 - [kingkillery/pk-ghost-ai/.agents/skills/clerk-custom-ui/SKILL.md](https://github.com/kingkillery/pk-ghost-ai/blob/main/.agents/skills/clerk-custom-ui/SKILL.md)
 - [kingkillery/pk-ghost-ai/.agents/skills/trigger-config/SKILL.md](https://github.com/kingkillery/pk-ghost-ai/blob/main/.agents/skills/trigger-config/SKILL.md)
@@ -3464,24 +3444,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [.agents/skills/webapp-testing/SKILL.md](https://github.com/kingkillery/oz-skills/blob/main/.agents/skills/webapp-testing/SKILL.md)
 - [.agents/skills/web-performance-audit/SKILL.md](https://github.com/kingkillery/oz-skills/blob/main/.agents/skills/web-performance-audit/SKILL.md)
 
-### kingkillery/pi-speak-extension
-[Repository home](https://github.com/kingkillery/pi-speak-extension)
-- [.agents/skills/g-kade/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/g-kade/SKILL.md)
-- [.agents/skills/gstack/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/gstack/SKILL.md)
-- [.agents/skills/kade-hq/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/kade-hq/SKILL.md)
-- [.agents/skills/llm-as-verifier/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/llm-as-verifier/SKILL.md)
-- [.agents/skills/llm-wiki-organizer/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/llm-wiki-organizer/SKILL.md)
-- [.agents/skills/llm-wiki-skills/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/llm-wiki-skills/SKILL.md)
-- [.agents/skills/pokemon-benchmark/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/pokemon-benchmark/SKILL.md)
-- [.codex/skills/android-development/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/android-development/SKILL.md)
-- [.codex/skills/g-kade/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/g-kade/SKILL.md)
-- [.codex/skills/gstack/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/gstack/SKILL.md)
-- [.codex/skills/kade-hq/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/kade-hq/SKILL.md)
-- [.codex/skills/llm-as-verifier/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/llm-as-verifier/SKILL.md)
-- [.codex/skills/llm-wiki-skills/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/llm-wiki-skills/SKILL.md)
-- [.codex/skills/pokemon-benchmark/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/pokemon-benchmark/SKILL.md)
-- [SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/SKILL.md)
-
 ### kingkillery/pk-qmd
 [Repository home](https://github.com/kingkillery/pk-qmd)
 - [.agents/skills/.system/skill-creator/SKILL.md](https://github.com/kingkillery/pk-qmd/blob/main/.agents/skills/.system/skill-creator/SKILL.md)
@@ -3516,6 +3478,23 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [.agents/skills/project-prioritization/skill.md](https://github.com/kingkillery/IX-Agentv6/blob/main/.agents/skills/project-prioritization/skill.md)
 - [.agents/skills/remote-mac/SKILL.md](https://github.com/kingkillery/IX-Agentv6/blob/main/.agents/skills/remote-mac/SKILL.md)
 - [.agents/skills/sop-creation/SKILL.md](https://github.com/kingkillery/IX-Agentv6/blob/main/.agents/skills/sop-creation/SKILL.md)
+
+### kingkillery/pi-speak-extension
+[Repository home](https://github.com/kingkillery/pi-speak-extension)
+- [.agents/skills/g-kade/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/g-kade/SKILL.md)
+- [.agents/skills/gstack/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/gstack/SKILL.md)
+- [.agents/skills/kade-hq/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/kade-hq/SKILL.md)
+- [.agents/skills/llm-as-verifier/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/llm-as-verifier/SKILL.md)
+- [.agents/skills/llm-wiki-organizer/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/llm-wiki-organizer/SKILL.md)
+- [.agents/skills/llm-wiki-skills/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/llm-wiki-skills/SKILL.md)
+- [.agents/skills/pokemon-benchmark/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.agents/skills/pokemon-benchmark/SKILL.md)
+- [.codex/skills/android-development/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/android-development/SKILL.md)
+- [.codex/skills/g-kade/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/g-kade/SKILL.md)
+- [.codex/skills/gstack/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/gstack/SKILL.md)
+- [.codex/skills/kade-hq/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/kade-hq/SKILL.md)
+- [.codex/skills/llm-as-verifier/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/llm-as-verifier/SKILL.md)
+- [.codex/skills/llm-wiki-skills/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/llm-wiki-skills/SKILL.md)
+- [.codex/skills/pokemon-benchmark/SKILL.md](https://github.com/kingkillery/pi-speak-extension/blob/main/.codex/skills/pokemon-benchmark/SKILL.md)
 
 ### kingkillery/My-Brain-Is-Full-Crew
 [Repository home](https://github.com/kingkillery/My-Brain-Is-Full-Crew)
@@ -3600,18 +3579,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [skills/pptx-generator/SKILL.md](https://github.com/kingkillery/skills/blob/main/skills/pptx-generator/SKILL.md)
 - [skills/shader-dev/SKILL.md](https://github.com/kingkillery/skills/blob/main/skills/shader-dev/SKILL.md)
 
-### kingkillery/Agent-Skills-for-Context-Engineering
-[Repository home](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering)
-- [SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/SKILL.md)
-- [skills/context-compression/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md)
-- [skills/context-degradation/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md)
-- [skills/context-fundamentals/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-fundamentals/SKILL.md)
-- [skills/context-optimization/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md)
-- [skills/evaluation/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/evaluation/SKILL.md)
-- [skills/memory-systems/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems/SKILL.md)
-- [skills/multi-agent-patterns/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/multi-agent-patterns/SKILL.md)
-- [skills/tool-design/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design/SKILL.md)
-
 ### kingkillery/emulate
 [Repository home](https://github.com/kingkillery/emulate)
 - [skills/apple/SKILL.md](https://github.com/kingkillery/emulate/blob/main/skills/apple/SKILL.md)
@@ -3623,6 +3590,17 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 - [skills/next/SKILL.md](https://github.com/kingkillery/emulate/blob/main/skills/next/SKILL.md)
 - [skills/slack/SKILL.md](https://github.com/kingkillery/emulate/blob/main/skills/slack/SKILL.md)
 - [skills/vercel/SKILL.md](https://github.com/kingkillery/emulate/blob/main/skills/vercel/SKILL.md)
+
+### kingkillery/Agent-Skills-for-Context-Engineering
+[Repository home](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering)
+- [skills/context-compression/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression/SKILL.md)
+- [skills/context-degradation/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation/SKILL.md)
+- [skills/context-fundamentals/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-fundamentals/SKILL.md)
+- [skills/context-optimization/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization/SKILL.md)
+- [skills/evaluation/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/evaluation/SKILL.md)
+- [skills/memory-systems/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems/SKILL.md)
+- [skills/multi-agent-patterns/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/multi-agent-patterns/SKILL.md)
+- [skills/tool-design/SKILL.md](https://github.com/kingkillery/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design/SKILL.md)
 
 ### kingkillery/gbrain
 [Repository home](https://github.com/kingkillery/gbrain)
@@ -3806,22 +3784,6 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 [Repository home](https://github.com/kingkillery/bn)
 - [skills/bn/SKILL.md](https://github.com/kingkillery/bn/blob/main/skills/bn/SKILL.md)
 
-### kingkillery/browser-harness
-[Repository home](https://github.com/kingkillery/browser-harness)
-- [SKILL.md](https://github.com/kingkillery/browser-harness/blob/main/SKILL.md)
-
-### kingkillery/browser-harness-js
-[Repository home](https://github.com/kingkillery/browser-harness-js)
-- [SKILL.md](https://github.com/kingkillery/browser-harness-js/blob/main/SKILL.md)
-
-### kingkillery/claude-code-skills
-[Repository home](https://github.com/kingkillery/claude-code-skills)
-- [SKILL.md](https://github.com/kingkillery/claude-code-skills/blob/main/SKILL.md)
-
-### kingkillery/claude-code-source-code-full
-[Repository home](https://github.com/kingkillery/claude-code-source-code-full)
-- [Skill.md](https://github.com/kingkillery/claude-code-source-code-full/blob/main/Skill.md)
-
 ### kingkillery/ClawRouter
 [Repository home](https://github.com/kingkillery/ClawRouter)
 - [skills/clawrouter/SKILL.md](https://github.com/kingkillery/ClawRouter/blob/main/skills/clawrouter/SKILL.md)
@@ -3834,29 +3796,9 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 [Repository home](https://github.com/kingkillery/consurg)
 - [skills/context-surgeon/SKILL.md](https://github.com/kingkillery/consurg/blob/main/skills/context-surgeon/SKILL.md)
 
-### kingkillery/DeepTutor
-[Repository home](https://github.com/kingkillery/DeepTutor)
-- [SKILL.md](https://github.com/kingkillery/DeepTutor/blob/main/SKILL.md)
-
 ### kingkillery/git-worktree-mcp
 [Repository home](https://github.com/kingkillery/git-worktree-mcp)
 - [skills/parallel-exploration/SKILL.md](https://github.com/kingkillery/git-worktree-mcp/blob/main/skills/parallel-exploration/SKILL.md)
-
-### kingkillery/gstack
-[Repository home](https://github.com/kingkillery/gstack)
-- [SKILL.md](https://github.com/kingkillery/gstack/blob/main/SKILL.md)
-
-### kingkillery/kade-headquarters
-[Repository home](https://github.com/kingkillery/kade-headquarters)
-- [SKILL.md](https://github.com/kingkillery/kade-headquarters/blob/main/SKILL.md)
-
-### kingkillery/kalshi-maker
-[Repository home](https://github.com/kingkillery/kalshi-maker)
-- [SKILL.md](https://github.com/kingkillery/kalshi-maker/blob/main/SKILL.md)
-
-### kingkillery/last30days-skill
-[Repository home](https://github.com/kingkillery/last30days-skill)
-- [SKILL.md](https://github.com/kingkillery/last30days-skill/blob/main/SKILL.md)
 
 ### kingkillery/llm-as-a-verifier
 [Repository home](https://github.com/kingkillery/llm-as-a-verifier)
