@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "Local skill rating and gap analysis tooling for PK Awesome Agent Skills",
+  "scripts": {
+    "review": "node ./bin/pk-awesome-review.js -AsJson",
+    "smoke-review": "npm exec -- pk-awesome-review -AsJson -TopN 1 -GapBottomPercent 10 -SkipRegrade",
+    "ci-review": "npm ci && npm exec -- pk-awesome-review -AsJson -TopN 1 -GapBottomPercent 10 -SkipRegrade"
+  },
   "bin": {
     "pk-awesome-review": "bin/pk-awesome-review.js"
   }

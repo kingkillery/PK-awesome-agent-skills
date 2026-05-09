@@ -29,7 +29,7 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 Use this repo's local scoring/review entrypoint from any agent or terminal:
 
 ```powershell
-npm install
+npm ci
 npm exec -- pk-awesome-review -AsJson
 ```
 
