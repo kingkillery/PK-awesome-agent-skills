@@ -10,7 +10,7 @@ A curated, machine-readable index of agent capabilities from Kingkillery skill r
 
 - Source index: $HOME\.codex\kingkillery-agent-skill-repos.json
 - Source path: C:\Users\prest\.codex\kingkillery-agent-skill-repos.json
-- Generated: 2026-05-09T15:49:45.3703439-06:00
+- Generated: 2026-05-09T15:53:48.9139068-06:00
 - Total repositories: 78
 - Total skills: 1751
 - Refresh with: .\scripts\Update-PKAwesomeAgentSkills.ps1

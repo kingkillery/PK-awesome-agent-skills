@@ -1,0 +1,192 @@
+[
+    {
+        "skill_type":  "Tooling \u0026 Environment",
+        "total_skills":  912,
+        "average_score":  60.4,
+        "top_examples":  [
+                             "kingkillery/antigravity-awesome-skills / skills/browser-extension-builder/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/python-performance-optimization/SKILL.md (81)",
+                             "kingkillery/pk-ruflo / .agents/skills/v3-performance-optimization/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/web-performance-optimization/SKILL.md (81)",
+                             "kingkillery/hermes-agent / skills/github/codebase-inspection/SKILL.md (81)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/oh-my-claudecode / skills/cancel/SKILL.md (41)",
+                                 "kingkillery/pk-ouroboros / skills/cancel/SKILL.md (41)",
+                                 "kingkillery/oh-my-codex / skills/cancel/SKILL.md (41)",
+                                 "kingkillery/gstack / SKILL.md (44)",
+                                 "kingkillery/gbrain / skills/query/SKILL.md (44)"
+                             ]
+    },
+    {
+        "skill_type":  "Solar \u0026 Interconnection",
+        "total_skills":  23,
+        "average_score":  63.7,
+        "top_examples":  [
+                             "kingkillery/antigravity-awesome-skills / skills/test-fixing/SKILL.md (77)",
+                             "kingkillery/oh-my-codex / skills/build-fix/SKILL.md (73)",
+                             "kingkillery/Interconnection-Dash-2026 / .agents/skills/field-spreadsheet/SKILL.md (65)",
+                             "kingkillery/antigravity-awesome-skills / skills/salesforce-development/SKILL.md (65)",
+                             "kingkillery/Interconnection-Dash-2026 / .codex/skills/interconnection-routing/SKILL.md (65)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/oz-skills / .agents/skills/ci-fix/SKILL.md (56)",
+                                 "kingkillery/antigravity-awesome-skills / skills/incident-response-smart-fix/SKILL.md (57)",
+                                 "kingkillery/IX-Agentv6 / .agents/skills/albatross-knowledge-base/SKILL.md (60)",
+                                 "kingkillery/IX-Agentv6 / .agents/skills/albatross-pipeline-review/SKILL.md (60)",
+                                 "kingkillery/.claude / skills/albatross-knowledge-base/SKILL.md (61)"
+                             ]
+    },
+    {
+        "skill_type":  "Agentic Systems",
+        "total_skills":  210,
+        "average_score":  63.5,
+        "top_examples":  [
+                             "kingkillery/pk-ruflo / .agents/skills/agent-crdt-synchronizer/SKILL.md (81)",
+                             "kingkillery/pk-ruflo / .agents/skills/agent-sync-coordinator/SKILL.md (81)",
+                             "kingkillery/pk-ruflo / .agents/skills/agent-matrix-optimizer/SKILL.md (81)",
+                             "kingkillery/pk-ruflo / .agents/skills/agent-pagerank-analyzer/SKILL.md (81)",
+                             "kingkillery/pk-ruflo / .agents/skills/agent-performance-analyzer/SKILL.md (81)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/evo / skills/subagent/SKILL.md (44)",
+                                 "kingkillery/ralph / skills/ralph/SKILL.md (44)",
+                                 "kingkillery/design.md / .agents/skills/agent-dx-cli-scale/SKILL.md (48)",
+                                 "kingkillery/.factory / skills/droid/SKILL.md (49)",
+                                 "kingkillery/.claude / skills/simple-agent-loop-go/SKILL.md (49)"
+                             ]
+    },
+    {
+        "skill_type":  "Research \u0026 Intelligence",
+        "total_skills":  100,
+        "average_score":  63.4,
+        "top_examples":  [
+                             "kingkillery/hermes-agent / skills/research/research-paper-writing/SKILL.md (81)",
+                             "kingkillery/everything-claude-code / .agents/skills/market-research/SKILL.md (77)",
+                             "kingkillery/everything-claude-code / skills/market-research/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/context-optimization/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/wiki-researcher/SKILL.md (77)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/agent-cli-obsidian / skills/wiki/SKILL.md (44)",
+                                 "kingkillery/Agent-Skills-for-Context-Engineering / skills/evaluation/SKILL.md (44)",
+                                 "kingkillery/pk-ouroboros / skills/evaluate/SKILL.md (49)",
+                                 "kingkillery/oh-my-claudecode / skills/deepinit/SKILL.md (49)",
+                                 "kingkillery/antigravity-awesome-skills / skills/evaluation/SKILL.md (53)"
+                             ]
+    },
+    {
+        "skill_type":  "Integrations \u0026 APIs",
+        "total_skills":  40,
+        "average_score":  61.9,
+        "top_examples":  [
+                             "kingkillery/pk-ruflo / .agents/skills/v3-mcp-optimization/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/slack-bot-builder/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/mcp-builder-ms/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/mcp-builder/SKILL.md (77)",
+                             "kingkillery/oh-my-claudecode / skills/mcp-setup/SKILL.md (73)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/routa / .agents/skills/slack/SKILL.md (44)",
+                                 "kingkillery/IX-Agentv6 / .agents/skills/obsidian/SKILL.md (44)",
+                                 "kingkillery/pk-qmd / .agents/skills/obsidian/SKILL.md (44)",
+                                 "kingkillery/emulate / skills/slack/SKILL.md (44)",
+                                 "kingkillery/antigravity-awesome-skills / skills/n8n-mcp-tools-expert/SKILL.md (53)"
+                             ]
+    },
+    {
+        "skill_type":  "Creative \u0026 Media",
+        "total_skills":  36,
+        "average_score":  61.8,
+        "top_examples":  [
+                             "kingkillery/hermes-agent / skills/media/gif-search/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/web-artifacts-builder/SKILL.md (77)",
+                             "kingkillery/pk-mirofish / .agents/skills/web-artifacts-builder/SKILL.md (72)",
+                             "kingkillery/antigravity-awesome-skills / skills/startup-metrics-framework/SKILL.md (69)",
+                             "kingkillery/antigravity-awesome-skills / skills/game-development/game-art/SKILL.md (69)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/agent-cli-obsidian / skills/canvas/SKILL.md (44)",
+                                 "kingkillery/hermes-agent / skills/media/heartmula/SKILL.md (53)",
+                                 "kingkillery/skills / skills/gif-sticker-maker/SKILL.md (56)",
+                                 "kingkillery/slides-grab / skills/slides-grab/SKILL.md (56)",
+                                 "kingkillery/obsidian-skills / skills/json-canvas/SKILL.md (56)"
+                             ]
+    },
+    {
+        "skill_type":  "Documentation \u0026 Knowledge",
+        "total_skills":  85,
+        "average_score":  61.2,
+        "top_examples":  [
+                             "kingkillery/antigravity-awesome-skills / skills/environment-setup-guide/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/brand-guidelines-anthropic/SKILL.md (69)",
+                             "kingkillery/everything-claude-code / skills/nutrient-document-processing/SKILL.md (69)",
+                             "kingkillery/antigravity-awesome-skills / skills/azure-search-documents-py/SKILL.md (69)",
+                             "kingkillery/antigravity-awesome-skills / skills/azure-search-documents-ts/SKILL.md (69)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/anthropics-skills / skills/docx/SKILL.md (44)",
+                                 "kingkillery/pk-qmd / .agents/skills/doc/SKILL.md (44)",
+                                 "kingkillery/oh-my-codex / skills/doctor/SKILL.md (49)",
+                                 "kingkillery/pk-ouroboros / skills/help/SKILL.md (49)",
+                                 "kingkillery/oh-my-codex / skills/ralplan/SKILL.md (49)"
+                             ]
+    },
+    {
+        "skill_type":  "DevOps \u0026 Delivery",
+        "total_skills":  135,
+        "average_score":  62.1,
+        "top_examples":  [
+                             "kingkillery/antigravity-awesome-skills / skills/deployment-pipeline-design/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/incident-runbook-templates/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/create-pr/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/deployment-engineer/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/deployment-procedures/SKILL.md (77)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/pk-qmd / skills/release/SKILL.md (44)",
+                                 "kingkillery/pk-paperclip / .agents/skills/release/SKILL.md (44)",
+                                 "kingkillery/routa / .agents/skills/dogfood/SKILL.md (44)",
+                                 "kingkillery/emulate / skills/github/SKILL.md (44)",
+                                 "kingkillery/pk-obsidian-plugins / .agents/skills/pull/SKILL.md (44)"
+                             ]
+    },
+    {
+        "skill_type":  "Engineering \u0026 Architecture",
+        "total_skills":  131,
+        "average_score":  63.5,
+        "top_examples":  [
+                             "kingkillery/antigravity-awesome-skills / skills/sql-optimization-patterns/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/javascript-testing-patterns/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/similarity-search-patterns/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/e2e-testing-patterns/SKILL.md (77)",
+                             "kingkillery/antigravity-awesome-skills / skills/bats-testing-patterns/SKILL.md (77)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/gemini-skills / skills/vertex-ai-api-dev/SKILL.md (44)",
+                                 "kingkillery/gemini-skills / skills/gemini-live-api-dev/SKILL.md (44)",
+                                 "kingkillery/engineeringagent-skills / skills/api-and-interface-design/SKILL.md (49)",
+                                 "kingkillery/antigravity-awesome-skills / skills/on-call-handoff-patterns/SKILL.md (53)",
+                                 "kingkillery/antigravity-awesome-skills / skills/architecture/SKILL.md (53)"
+                             ]
+    },
+    {
+        "skill_type":  "Testing \u0026 Quality",
+        "total_skills":  79,
+        "average_score":  68.2,
+        "top_examples":  [
+                             "kingkillery/antigravity-awesome-skills / skills/sqlmap-database-pentesting/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/security-bluebook-builder/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/security-requirement-extraction/SKILL.md (81)",
+                             "kingkillery/hermes-agent / skills/software-development/test-driven-development/SKILL.md (81)",
+                             "kingkillery/antigravity-awesome-skills / skills/wordpress-penetration-testing/SKILL.md (81)"
+                         ],
+        "weakest_examples":  [
+                                 "kingkillery/pk-obsidian-plugins / .agents/skills/debug/SKILL.md (44)",
+                                 "kingkillery/symphony / .codex/skills/debug/SKILL.md (44)",
+                                 "kingkillery/oh-my-claudecode / skills/ultraqa/SKILL.md (49)",
+                                 "kingkillery/oh-my-codex / skills/ultraqa/SKILL.md (49)",
+                                 "kingkillery/pk-ouroboros / skills/qa/SKILL.md (49)"
+                             ]
+    }
+]

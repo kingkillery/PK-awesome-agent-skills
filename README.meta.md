@@ -1,18 +1,18 @@
-## PK Awesome Agent Skills — Skill Package
+## PK Awesome Agent Skills - Skill Package
 
 This repository is a generated catalog of candidate agent skills sourced from
 `$HOME\.codex\kingkillery-agent-skill-repos.json`.
 
-### What’s included
+### What's included
 
-- `catalog.json` — flat skill inventory (`{"repo","skill","path","url"}`-style entries)
-- `skills-flat.json` — normalized copy with one row per `SKILL.md`
-- `README.md` — human-friendly catalog with:
+- `catalog.json` - flat skill inventory (`{"repo","skill","path","url"}`-style entries)
+- `skills-flat.json` - normalized copy with one row per `SKILL.md`
+- `README.md` - human-friendly catalog with:
   - repository inventory
   - skills by category
   - skills by repository
   - direct links to every `SKILL.md`
-- `scripts/` — helper scripts to refresh the generated artifacts
+- `scripts/` - helper scripts to refresh generated artifacts
 
 ### Regenerate the catalog
 
@@ -25,7 +25,32 @@ Default data source is `$HOME\.codex\kingkillery-agent-skill-repos.json`.
 
 ### Intended use
 
-Use this repo as a reference index when wiring agent skill workflows in Codex/Claude Code.
-The links go directly to upstream GitHub `SKILL.md` files and are grouped both by
-category and repository for quick navigation.
+- Use this repo as a reference index when wiring agent skill workflows in
+  Codex/Claude Code.
+- The links go directly to upstream GitHub `SKILL.md` files and are grouped both
+  by category and repository for quick navigation.
 
+### Rating pipeline
+
+To keep the catalog improving over time, we now generate usefulness scores and
+gap signals for each skill in the catalog:
+
+- `skill-ratings.json` - every skill with score + reasoning + risk flags
+- `skill-rating-summary.json` - per-type score summary
+- `skill-rankings-by-category.md` - human-readable ranking by category
+- `skill-gap-analysis.md` - bottom performers and gap candidates by category
+
+Run locally:
+
+```powershell
+.\scripts\Update-PKAwesomeAgentSkills.ps1
+.\scripts\Generate-PKAwesomeReadme.ps1
+.\scripts\Grade-PKAwesomeSkills.ps1
+```
+
+Read the score artifacts to:
+- prioritize low-scoring skills
+- fix naming/actionability issues in weak areas
+- add evidence/references for low-signal skills
+
+See [Skill rating and gap workflow](skill-rating-and-gap-workflow.md) for the full review model and an iterative improvement loop.

@@ -1,0 +1,59 @@
+name: Skill rating and gap analysis
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'skills-flat.json'
+      - 'catalog.json'
+      - 'scripts/**'
+      - 'README.md'
+  pull_request:
+    paths:
+      - 'skills-flat.json'
+      - 'catalog.json'
+      - 'scripts/**'
+      - 'README.md'
+  schedule:
+    - cron: '0 3 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  skill-score:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Refresh artifacts and evaluate
+        shell: pwsh
+        run: |
+          .\scripts\Update-PKAwesomeAgentSkills.ps1
+          .\scripts\Generate-PKAwesomeReadme.ps1
+          .\scripts\Grade-PKAwesomeSkills.ps1
+
+      - name: Upload score artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pk-awesome-skill-ratings
+          path: |
+            skill-ratings.json
+            skill-rating-summary.json
+            skill-rankings-by-category.md
+            skill-gap-analysis.md
+
+      - name: Commit updated scoring outputs
+        if: github.ref == 'refs/heads/master'
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add skill-ratings.json skill-rating-summary.json skill-rankings-by-category.md skill-gap-analysis.md
+          if (-not (git diff --cached --quiet)) {
+            git commit -m "chore(ci): refresh skill ranking reports"
+            git push
+          }
